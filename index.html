@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Guess The Number</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+
+	<body class="text-center">
+
+		<nav
+			class="navbar navbar-dark bg-dark">
+			<!-- Navbar content -->
+			<a class="navbar-brand" href="#">The Guess The Number Game!</a>
+		</nav>
+
+		<main>
+
+			<h3 class="banner p-3">The number is between 1 and 100.</h3>
+
+			<div class="form-group">
+				<input id="number-guess" class="form-control form-control-lg" type="number" placeholder="Enter your guess?">
+			</div>
+
+			<div
+				id="result"><!-- innerHTML This is where the result will be displayed! -->
+			</div>
+
+			<button type="button" id="number-submit" class="btn btn-lg btn-success">Check My Guess</button>
+
+			<button type="button" id="restart-game" class="btn btn-lg btn-secondary">Restart Game</button>
+
+			<div
+				id="history"><!-- innerHTML This is where the guess history will be displayed! -->
+			</div>
+
+		</main>
+	</body>
+
+</html>
